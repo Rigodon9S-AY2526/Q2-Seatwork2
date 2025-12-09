@@ -1,0 +1,63 @@
+body {
+            background-image: url("obmc.png");  
+            background-size: cover;            
+            background-position: upper left;      
+            background-repeat: repeat;     
+        }
+
+        table.table-striped {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+            background-color: #ffffff;
+            border-radius: 25px;
+            border-color: rgb(55, 55, 55);
+            border-style: solid;
+
+        }
+
+        .column {
+        float: left;
+        width: 50%;
+        }
+
+
+        .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        }
+
+        #title {
+            text-align: center;
+        }
+
+        #form {
+            max-width: 700px;
+            margin: 20px auto;
+            padding: 5px;
+            
+        }
+
+        input[type="textarea"] {
+            width: 660px;
+            height: 80px; 
+
+        }
+
+        .textarea {
+            width: 400px;
+            height: 150px;
+        }
+
+        .hero-text {
+            text-align: center;
+            color: rgb(0, 0, 0);
+        }
+
+       #contact-form {
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 5px;
+
+       } 
